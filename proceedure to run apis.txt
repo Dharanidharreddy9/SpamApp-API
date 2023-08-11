@@ -1,0 +1,13 @@
+1. create the virtual environment in the file
+    --> python -m venv venv
+2. enter into the virtual environment
+	--> venv\scripts\activate
+3. install all the required packages
+	--> pip install -r requirement.txt
+4. first run the create_db file
+	--> python create_db.py
+5. after that u can directly run the file
+	--> python run.py
+6. after starting the server you can take the srver code.
+	--> http://127.0.0.1:5000/spamfinder/
+7. dont forget change the postgresql creadentail in the config file
